@@ -27,7 +27,17 @@ You can install them using pip:
 OR 
 `py -m pip install watchdog`
 ## Note
-This script is intended to be run continuously in the background. To stop the script, use a keyboard interrupt (Ctrl+C).
+This script is intended to be run continuously in the background. To stop the script, use a keyboard interrupt (Ctrl+C).  
+and Update the path where you want to put and which directory you want to create   
++ Example = C:\\Users\\ProfileName\\Downloads
++ source_dir=""
++ dest_dir_sfx = ""
++ dest_dir_music = ""
++ dest_dir_video = ""
++ dest_dir_image = ""
++ dest_dir_documents = ""
++ dest_dir_python = ""
++ dest_dir_zip = ""
 
 # Disclaimer
 Please use this script responsibly. The author is not responsible for any data loss that may occur as a result of using this script. Always test the script on non-important data first.

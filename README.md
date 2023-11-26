@@ -7,9 +7,9 @@ This Python script automatically organizes files in a specified directory based 
 + If a file with the same name already exists in the destination directory, it renames the file by appending a number to the filename to make it unique.
 + Logs every file move operation.
 ## How to Use
-1: Set your source directory and destination directories at the top of the script.
-2: Run the script. It will keep running and monitor the source directory for any new files.
-3: Any new file added to the source directory will be automatically moved to the appropriate destination directory based on its file type.  
+1: Set your source directory and destination directories at the top of the script.  
+2: Run the script. It will keep running and monitor the source directory for any new files.  
+3: Any new file added to the source directory will be automatically moved to the appropriate destination directory based on its file type.    
 ## Dependencies
 This script requires the following Python libraries:  
 

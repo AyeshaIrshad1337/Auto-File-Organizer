@@ -9,15 +9,15 @@ import logging
 
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-
-source_dir="C:\\Users\\Ayesha\\Downloads"
-dest_dir_sfx = "C:\\Users\\Ayesha\\Downloads\\sfx"
-dest_dir_music = "C:\\Users\\Ayesha\\Downloads\\music"
-dest_dir_video = "C:\\Users\\Ayesha\\Downloads\\video"
-dest_dir_image = "C:\\Users\\Ayesha\\Downloads\\image"
-dest_dir_documents = "C:\\Users\\Ayesha\\Downloads\\documents"
-dest_dir_python = "C:\\Users\\Ayesha\\Downloads\\python"
-dest_dir_zip = "C:\\Users\\Ayesha\\Downloads\\zip"
+# C:\\Users\\ProfileName\\Downloads
+source_dir=""
+dest_dir_sfx = ""
+dest_dir_music = ""
+dest_dir_video = ""
+dest_dir_image = ""
+dest_dir_documents = ""
+dest_dir_python = ""
+dest_dir_zip = ""
 # ? supported image types
 image_extensions = [".jpg", ".jpeg", ".jpe", ".jif", ".jfif", ".jfi", ".png", ".gif", ".webp", ".tiff", ".tif", ".psd", ".raw", ".arw", ".cr2", ".nrw",
                     ".k25", ".bmp", ".dib", ".heif", ".heic", ".ind", ".indd", ".indt", ".jp2", ".j2k", ".jpf", ".jpf", ".jpx", ".jpm", ".mj2", ".svg", ".svgz", ".ai", ".eps", ".ico"]
